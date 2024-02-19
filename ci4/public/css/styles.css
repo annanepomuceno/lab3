@@ -1,0 +1,191 @@
+body {
+    margin: 20px; padding: 0; 
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Poppins, sans-serif;
+    }
+
+h1 {
+	color:#FEFFFF;
+	margin-top: 0px;
+}
+
+h2 {
+    color:#FEFFFF;
+    }
+
+h3 {
+	color:#2B9C8E;
+}
+
+hr {
+    border: 1px solid; 
+	margin: 20px 0;
+	color: #0ef;
+    }
+
+p {
+    line-height: 1.6;
+	color:#cfcfcf
+    }
+
+a {
+    text-decoration: none;
+    color: #0ef;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2c3e50;
+}
+
+img {
+	border-radius: 5px;
+}
+
+button {
+    outline: none;
+    padding: 12px;
+    border: none;
+    background-color: rgb(25, 121, 211);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+ }
+
+.Adjust {
+    padding: 10px;
+    border-radius: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+    }
+		
+.Bio {
+	background-color: #00c7d5; 
+    padding: 1px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+	
+.Skills {
+	background-color: #00c7d5;
+    padding: 1px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+
+.Socials {
+	background-color: #00072D; 
+    padding: 10px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+	
+.Socials img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.Size {
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	background: #0ef;
+	padding: 10px;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	border-radius: 7px;
+	color: #ddd;
+	cursor: pointer;
+	margin: 10px auto;
+	
+}
+	
+.btn:hover{
+	background: #000370;
+}
+
+.img-container {
+    margin: 20px auto;
+    width: 100%;
+	
+}
+
+.btn-container {
+    text-align: center;
+ }
+
+#FB {
+  font-size: 60px;
+}
+
+#GH {
+  font-size: 60px;
+}
+
+#LI {
+  font-size: 60px;
+}
+
+#Neon {
+  color:#0ef;
+  font-variant: small-caps;
+  font-family: sans-serif;
+}
+
+#Pic {
+  vertical-align: middle;
+  width: 75px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #0ef;
+}
+
+#glow {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#glow:hover {
+	text-shadow: 0 0 20px #fff, 0 0 30px #00eeff, 0 0 40px #00eeff, 0 0 50px #00eeff, 0 0 60px #00eeff, 0 0 70px #00eeff, 0 0 80px #00eeff;
+}
+
+#demo {
+	text-align: right;
+	font-family: sans-serif;
+	font-variant: small-caps;
+}
+
+#pos {
+	float: right;
+}
+
+#intro {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+}
+
+#fontz {
+    text-decoration: none;
+    color: #0ef;
+    font-weight: bold;
+}
+
+#fontz:hover {
+    color: #2c3e50;
+}
