@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Exceptions\PageNotFoundException;
+
 class Pages extends BaseController
 {
     public function index()
@@ -16,10 +18,10 @@ class Pages extends BaseController
             throw new PageNotFoundException($page);
         }
 
-        $data['title'] = ucfirst($page); // Capitalize the first letter
+        $data['title'] = ucFirst($page); // Capitalize the first letter
 
         return view('templates/header', $data)
             . view('pages/' . $page)
             . view('templates/footer');
     }
-}
+    }
